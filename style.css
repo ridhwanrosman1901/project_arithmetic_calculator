@@ -1,0 +1,84 @@
+/* Style for the entire body to center the calculator on the screen */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+/* Style for the calculator container */
+#Calculator {
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 15px;
+    max-width: 400px; /* Adjusted max-width to ensure visibility */
+    overflow: hidden;
+    text-align: center; /* Center the title */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+/* Style for the calculator title */
+#title {
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    font-size: 2rem; /* Adjusted font-size for better visibility */
+    color: white;
+}
+
+/* Style for the display input field */
+#display {
+    width: 100%;
+    padding: 10px; /* Adjusted padding for better spacing */
+    font-size: 2rem; /* Adjusted font-size for better visibility */
+    text-align: right; /* Changed text alignment to right */
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    margin-bottom: 10px; /* Added margin for spacing between display and keys */
+}
+
+/* Style for the container holding the calculator keys */
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+/* General style for all buttons */
+button {
+    width: 60px; /* Adjusted width for better fit */
+    height: 60px; /* Adjusted height for better fit */
+    border-radius: 30px; /* Rounded buttons */
+    border: none;
+    background-color: hsl(0, 0%, 30%);
+    color: white;
+    font-size: 1.5rem; /* Adjusted font-size for better fit */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style for button hover state */
+button:hover {
+    background-color: hsl(0, 0%, 40%);
+}
+
+/* Style for button active state (when clicked) */
+button:active {
+    background-color: hsl(0, 0%, 50%);
+}
+
+/* Style for operator buttons */
+.operator-btn {
+    background-color: hsl(39, 100%, 55%);
+}
+
+/* Style for operator button hover state */
+.operator-btn:hover {
+    background-color: hsl(39, 100%, 65%);
+}
+
+/* Style for operator button active state (when clicked) */
+.operator-btn:active {
+    background-color: hsl(39, 100%, 75%);
+}
