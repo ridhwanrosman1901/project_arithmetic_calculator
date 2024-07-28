@@ -9,6 +9,9 @@ This is a simple arithmetic calculator web application. It allows users to perfo
 - Rounded buttons for a modern look.
 - Error handling for invalid expressions.
 
+## Preview
+![preview!](/preview.png)
+
 ## Installation
 To use the Basic Arithmetic Calculator, follow these steps:
 
